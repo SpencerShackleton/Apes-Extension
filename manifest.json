@@ -1,0 +1,13 @@
+{
+    "manifest_version": 2,
+    "name": "AVAX Apes Plugin",
+    "version": "1.0",
+    "content_scripts": [
+        {
+          "matches": [
+            "https://www.avaxapes.com/*"
+          ],
+          "js": ["apes.js"]
+        }
+      ]
+}
